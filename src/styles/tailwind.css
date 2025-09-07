@@ -1,0 +1,24 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Functions and Directives */
+/* Import Tailwind */
+@import 'tailwindcss';
+
+/* Base Layer */
+@layer base {
+  /* Set Default Body Font */
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Components Layer */
+@layer components {
+  /* Add Later */
+}
+
+/* Utilities Layer */
+@layer utilities {
+  /* Add Later */
+}
