@@ -1,7 +1,7 @@
-/* Google Fonts */
+/* -------------------------> Google Fonts <------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-/* Functions and Directives */
+/* -------------------------> Functions and Directives <------------------------- */
 /* Import Tailwind */
 @import 'tailwindcss';
 
@@ -21,4 +21,17 @@
 /* Utilities Layer */
 @layer utilities {
   /* Add Later */
+}
+
+/* Animated Gradient Border */
+@keyframes borderShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

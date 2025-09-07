@@ -66,25 +66,110 @@
   </head>
 
   <body>
-    <!-- ================================================== -->
+    <!-- -------------------------------------------------- -->
     <!-- Header Area -->
-    <!-- ================================================== -->
+    <!-- -------------------------------------------------- -->
+    <header class="sticky top-0 z-50 bg-[#15803D] backdrop-blur-sm">
+      <div
+        class="container mx-auto text-white flex justify-between items-center max-w-[97%] sm:max-w-[95%] md:max-w-[93%] lg:max-w-[90%] xl:max-w-[87%] 2xl:max-w-[85%] py-3 sm:py-5 md:py-4 lg:py-5 xl:py-6 2xl:py-7 whitespace-nowrap"
+      >
+        <!-- -------------------------* Hamburger Menu *------------------------- -->
+        <div class="md:hidden text-[12px] sm:text-[17px] relative">
+          <button id="hamburgerBtn" class="cursor-pointer">
+            <i class="fa-solid fa-bars"></i> Menu
+          </button>
 
-    <!-- ================================================== -->
+          <!-- Dropdown Items -->
+          <ul
+            id="dropdownMenu"
+            class="absolute z-50 left-0 mt-4 sm:mt-6 ml-2 w-40 bg-white sm:text-[14px] text-black shadow-md rounded-b-md hidden flex-col"
+          >
+            <li
+              class="px-4 py-2 hover:bg-green-700 hover:text-white cursor-pointer"
+            >
+              About
+            </li>
+            <li
+              class="px-4 py-2 hover:bg-green-700 hover:text-white cursor-pointer"
+            >
+              Gallery
+            </li>
+            <li
+              class="px-4 py-2 hover:bg-green-700 hover:text-white cursor-pointer"
+            >
+              Plant a Tree
+            </li>
+          </ul>
+        </div>
+        <!-- -------------------------* Logo *------------------------- -->
+        <div class="">
+          <h1
+            class="text-[16px] sm:text-[20px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-bold tracking-normal sm:tracking-wide lg:tracking-wider 2xl:tracking-widest"
+          >
+            Green Earth
+          </h1>
+        </div>
+        <!-- -------------------------* Navigation Menu *------------------------- -->
+        <nav class="hidden md:block">
+          <ul
+            class="flex justify-between items-center gap-[8px] sm:gap-[10px] md:gap-[2px] lg:gap-[4px] xl:gap-[4px] 2xl:gap-[18px] base sm: md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-base"
+          >
+            <li
+              class="px-[18px] sm:px-[10px] md:px-[8px] lg:px-[8px] xl:px-[12px] 2xl:px-[14px] py-[4px] sm:py-[3px] md:py-[4px] lg:py-[3px] xl:py-[4px] 2xl:py-[4px] rounded-full hover:shadow-[0_2px_6px_rgba(255,255,255,0.3),0_-2px_6px_rgba(0,0,0,0.25)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.5),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.3)] transition-shadow duration-200 cursor-pointer"
+            >
+              <a href="#">About</a>
+            </li>
+            <li
+              class="px-[18px] sm:px-[10px] md:px-[8px] lg:px-[8px] xl:px-[12px] 2xl:px-[14px] py-[4px] sm:py-[3px] md:py-[4px] lg:py-[3px] xl:py-[4px] 2xl:py-[4px] rounded-full hover:shadow-[0_2px_6px_rgba(255,255,255,0.3),0_-2px_6px_rgba(0,0,0,0.25)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.5),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.3)] transition-shadow duration-200 cursor-pointer"
+            >
+              <a href="#">Gallery</a>
+            </li>
+            <li
+              class="px-[18px] sm:px-[10px] md:px-[8px] lg:px-[8px] xl:px-[12px] 2xl:px-[14px] py-[4px] sm:py-[3px] md:py-[4px] lg:py-[3px] xl:py-[4px] 2xl:py-[4px] rounded-full hover:shadow-[0_2px_6px_rgba(255,255,255,0.3),0_-2px_6px_rgba(0,0,0,0.25)] active:shadow-[inset_1.5px_1.5px_4px_rgba(0,0,0,0.5),inset_-1.5px_-1.5px_4px_rgba(255,255,255,0.3)] transition-shadow duration-200 cursor-pointer"
+            >
+              <a href="#">Plant a Tree</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- -------------------------* Plant a Tree Button *------------------------- -->
+        <div class="">
+          <button
+            title="Plant a Tree"
+            class="relative z-10 text-[10px] sm:text-[12px] md:text-[14px] lg:text-[14px] xl:text-[14px] 2xl:text-[16px] px-[8px] sm:px-[10px] md:px-[14px] lg:px-[18px] xl:px-5 2xl:px-6 py-[4px] sm:py-[8px] md:py-[7px] lg:py-[10px] xl:py-[12px] 2xl:py-[12px] font-medium sm:font-semibold text-[#15803D] bg-[#FACC15] rounded-full shadow-[0_2px_6px_rgba(0,0,0,0.2)] overflow-hidden cursor-pointer"
+          >
+            <span class="relative z-20"
+              ><i class="fa-brands fa-pagelines"></i
+              ><span class=""> Plant a Tree</span></span
+            >
+            <!-- Animated Gradient Border -->
+            <span
+              class="absolute inset-0 rounded-full p-[2px] sm:p-[4px] lg:p-[4px] 2xl:p-[4px] bg-linear-[25deg,red_5%,yellow_60%,lime_90%,teal] [background-size:400%_400%] animate-[borderShift_3s_linear_infinite]"
+              aria-hidden="true"
+            >
+              <span
+                class="block w-full h-full rounded-full bg-[#FACC15]"
+              ></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- -------------------------------------------------- -->
     <!-- Main Area -->
-    <!-- ================================================== -->
+    <!-- -------------------------------------------------- -->
 
-    <!-- ================================================== -->
+    <!-- -------------------------------------------------- -->
     <!-- Footer Area -->
-    <!-- ================================================== -->
+    <!-- -------------------------------------------------- -->
 
-    <!-- ================================================== -->
+    <!-- -------------------------------------------------- -->
     <!-- Others Area -->
-    <!-- ================================================== -->
+    <!-- -------------------------------------------------- -->
 
-    <!-- ================================================== -->
+    <!-- -------------------------------------------------- -->
     <!-- Scripts Area -->
-    <!-- ================================================== -->
+    <!-- -------------------------------------------------- -->
     <!-- JavaScript for index.html -->
     <script src="./src/scripts/index.js"></script>
   </body>
