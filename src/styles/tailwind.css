@@ -20,9 +20,22 @@
 
 /* Utilities Layer */
 @layer utilities {
-  /* Add Later */
+  /* Entrance Effect */
+  .slide-left {
+    animation: slideInLeft 1s ease-out forwards;
+  }
+  .slide-right {
+    animation: slideInRight 1s ease-out forwards;
+  }
+  .slide-down {
+    animation: slideInDown 0.7s ease-out forwards;
+  }
+  .slide-up {
+    animation: slideInUp 0.7s ease-out forwards;
+  }
 }
 
+/* -------------------------> Keyframes for Animation Effects <------------------------- */
 /* Animated Gradient Border */
 @keyframes borderShift {
   0% {
@@ -33,5 +46,58 @@
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+/* Header Marquee */
+@keyframes marquee {
+  0% {
+    transform: translateX(110%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Entrance Animations */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
 }

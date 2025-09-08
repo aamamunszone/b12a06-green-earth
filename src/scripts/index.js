@@ -1,6 +1,6 @@
-// ==================================================
+// --------------------------------------------------
 // Header Area
-// ==================================================
+// --------------------------------------------------
 // -------------------------> Hamburger Button <-------------------------
 const hamburgerBtn = document.getElementById('hamburgerBtn');
 const dropdownMenu = document.getElementById('dropdownMenu');

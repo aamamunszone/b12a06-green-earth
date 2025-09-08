@@ -69,7 +69,7 @@
     <!-- -------------------------------------------------- -->
     <!-- Header Area -->
     <!-- -------------------------------------------------- -->
-    <header class="sticky top-0 z-50 bg-[#15803D] backdrop-blur-sm">
+    <header class="sticky top-0 z-50 bg-[#15803D] shadow-lg">
       <div
         class="container mx-auto text-white flex justify-between items-center max-w-[97%] sm:max-w-[95%] md:max-w-[93%] lg:max-w-[90%] xl:max-w-[87%] 2xl:max-w-[85%] py-3 sm:py-5 md:py-4 lg:py-5 xl:py-6 2xl:py-7 whitespace-nowrap"
       >
@@ -134,7 +134,6 @@
         <!-- -------------------------* Plant a Tree Button *------------------------- -->
         <div class="">
           <button
-            title="Plant a Tree"
             class="relative z-10 text-[10px] sm:text-[12px] md:text-[14px] lg:text-[14px] xl:text-[14px] 2xl:text-[16px] px-[8px] sm:px-[10px] md:px-[14px] lg:px-[18px] xl:px-5 2xl:px-6 py-[4px] sm:py-[8px] md:py-[7px] lg:py-[10px] xl:py-[12px] 2xl:py-[12px] font-medium sm:font-semibold text-[#15803D] bg-[#FACC15] rounded-full shadow-[0_2px_6px_rgba(0,0,0,0.2)] overflow-hidden cursor-pointer"
           >
             <span class="relative z-20"
@@ -158,6 +157,84 @@
     <!-- -------------------------------------------------- -->
     <!-- Main Area -->
     <!-- -------------------------------------------------- -->
+    <main>
+      <!-- -------------------------* Hero Section *------------------------- -->
+      <section class="bg-[#CFF0DC] pb-5 sm:pb-7 md:pb-0">
+        <div
+          class="container mx-auto text-center flex flex-col md:flex-row justify-between items-center md:items-stretch lg:items-center max-w-[97%] sm:max-w-[95%] md:max-w-[100%] pt-3 sm:pt-5 md:pt-4 lg:pt-5 xl:pt-6 2xl:pt-7"
+        >
+          <!-- Left Image -->
+          <div
+            class="md:animate-[slideInLeft_1s_ease-out_forwards] md:hidden lg:block mb-3 sm:mb-5 md:mb-0"
+          >
+            <img
+              class="max-w-[100px] sm:max-w-[150px] lg:max-w-full animate-bounce md:animate-none mt-3 sm:mt-5 md:mt-0"
+              src="./public/assets/images/hero/hero-leaf-left.png"
+              alt="Hero Left Leaf"
+            />
+          </div>
+          <!-- Content -->
+          <div
+            class="w-full md:max-w-[55%] lg:max-w-[45%] md:p-[3%] lg:p-0 flex flex-col md:justify-evenly lg:justify-between md:items-start lg:items-center gap-1.5 sm:gap-2 md:gap-4 lg:gap-1 xl:gap-2 2xl:gap-4 md:text-left lg:text-center"
+          >
+            <!-- Description -->
+            <div class="slide-down text-[#1F2937]">
+              <h2
+                class="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[34px] xl:mb-1 2xl:mb-2 font-extrabold leading-relaxed tracking-wide whitespace-nowrap"
+              >
+                Plant a Tree, Grow a Future
+              </h2>
+              <p
+                class="text-[12px] sm:text-[14px] md:text-[14px] lg:text-[13px] xl:text-[16px] 2xl:text-[16px] font-medium"
+              >
+                Join our mission to plant 1 million trees and make the Earth
+                greener for future generations.
+              </p>
+            </div>
+            <!-- Marquee -->
+            <div
+              class="w-full mx-auto overflow-hidden bg-transparent text-[#a80077] text-[12px] sm:text-[12px] md:text-[15px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] text-center py-2 lg:mb-2"
+            >
+              <div
+                class="whitespace-nowrap animate-[marquee_15s_linear_infinite]"
+              >
+                🌱 Join our mission - Plant 1 million trees for a greener Earth
+                ✨ &nbsp; | &nbsp; 🎁 Donate a tree and gift the planet 🌳
+                &nbsp; | &nbsp; 🤝 Together, we grow a sustainable future. 💚
+              </div>
+            </div>
+            <!-- Get Involved Button -->
+            <div class="slide-up">
+              <button
+                class="relative z-10 text-[10px] sm:text-[12px] md:text-[14px] lg:text-[14px] xl:text-[14px] 2xl:text-[16px] px-[8px] sm:px-[10px] md:px-[14px] lg:px-[18px] xl:px-5 2xl:px-6 py-[4px] sm:py-[8px] md:py-[7px] lg:py-[10px] xl:py-[12px] 2xl:py-[12px] font-medium sm:font-semibold text-[#15803D] bg-[#FACC15] rounded-full shadow-[0_2px_6px_rgba(0,0,0,0.2)] overflow-hidden cursor-pointer"
+              >
+                <span class="relative z-20"
+                  ><i class="fa-brands fa-pagelines"></i
+                  ><span class=""> Plant a Tree</span></span
+                >
+                <!-- Animated Gradient Border -->
+                <span
+                  class="absolute inset-0 rounded-full p-[2px] sm:p-[4px] lg:p-[4px] 2xl:p-[4px] bg-linear-[25deg,red_5%,yellow_60%,lime_90%,teal] [background-size:400%_400%] animate-[borderShift_3s_linear_infinite]"
+                  aria-hidden="true"
+                >
+                  <span
+                    class="block w-full h-full rounded-full bg-[#FACC15]"
+                  ></span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <!-- Right Image -->
+          <div class="slide-right">
+            <img
+              class="h-full hidden md:block"
+              src="./public/assets/images/hero/hero-leaf-right.png"
+              alt="Hero Right Leaf"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- -------------------------------------------------- -->
     <!-- Footer Area -->
