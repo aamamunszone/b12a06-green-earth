@@ -157,7 +157,7 @@
     <!-- -------------------------------------------------- -->
     <!-- Main Area -->
     <!-- -------------------------------------------------- -->
-    <main>
+    <main class="bg-[#F0FDF4]">
       <!-- -------------------------* Hero Section *------------------------- -->
       <section class="bg-[#CFF0DC] pb-5 sm:pb-7 md:pb-0">
         <div
@@ -234,11 +234,156 @@
           </div>
         </div>
       </section>
+      <!-- -------------------------* Trees Section *------------------------- -->
+      <section class="hidden">
+        <div>
+          <!-- Heading -->
+          <div>
+            <h3>Choose Your Trees</h3>
+          </div>
+          <!-- Content -->
+          <div>
+            <!-- Categories -->
+            <aside>
+              <div>
+                <h4>Categories</h4>
+              </div>
+              <div></div>
+            </aside>
+            <!-- Trees -->
+            <div></div>
+            <!-- Cart -->
+            <aside>
+              <div>
+                <h4>Your Cart</h4>
+              </div>
+              <div></div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <!-- -------------------------* Campaign Section *------------------------- -->
+      <section>
+        <div
+          class="container mx-auto max-w-[67%] sm:max-w-[65%] md:max-w-[63%] lg:max-w-[60%] xl:max-w-[57%] 2xl:max-w-[55%] py-3 sm:py-5 md:py-4 lg:py-5 xl:py-6 2xl:py-7"
+        >
+          <!-- Heading -->
+          <div>
+            <h3
+              class="text-center text-[18px] sm:text-[16px] md:text-[18px] lg:text-[18px] xl:text-[20px] 2xl:text-[24px] font-bold whitespace-nowrap mb-[18px] sm:mb-[24px] lg:mb-[32px] 2xl:mb-[42px] tracking-wide"
+            >
+              About the Campaign
+            </h3>
+          </div>
+          <!-- Content -->
+          <div
+            class="flex flex-col lg:flex-row justify-between items-center gap-3.5 md:gap-5"
+          >
+            <div class="w-[45%]">
+              <img
+                src="./public/assets/images/campaign/campaign.png"
+                alt="Campaign Image"
+              />
+            </div>
+            <div
+              class="md:w-full lg:w-1/2 text-[#1F2937] text-[12px] md:text-sm space-y-6"
+            >
+              <p>
+                Green Earth is a global tree plantation initiative dedicated to
+                fighting climate change. Since our start, we've planted over
+                500,000 trees worldwide. By joining our campaign, you help
+                restore forests, create habitats for wildlife, and combat global
+                warming.
+              </p>
+              <ul class="list-disc pl-5">
+                <li>Restoration of natural habitats</li>
+                <li>Improvement of air quality</li>
+                <li>Support for local communities</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- -------------------------* Impact Section *------------------------- -->
+      <section class="hidden">
+        <div>
+          <!-- Heading -->
+          <div>
+            <h3>Our Impact</h3>
+          </div>
+          <!-- Content -->
+          <div>
+            <div>Card1</div>
+            <div>Card2</div>
+            <div>Card3</div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- -------------------------------------------------- -->
     <!-- Footer Area -->
     <!-- -------------------------------------------------- -->
+    <footer class="hidden">
+      <!-- Donate Form -->
+      <section>
+        <!-- Heading -->
+        <div>
+          <h3>Plant a Tree Today</h3>
+        </div>
+        <!-- Content -->
+        <div>
+          <form action="" method="post">
+            <input
+              class="input"
+              type="text"
+              name=""
+              id=""
+              placeholder="Your Name"
+            />
+            <input
+              class="input"
+              type="email"
+              name=""
+              id=""
+              placeholder="Your Email Address"
+            />
+            <select class="select">
+              <option disabled selected>Number of Trees</option>
+              <option>Crimson</option>
+              <option>Amber</option>
+              <option>Velvet</option>
+            </select>
+            <!-- Donate Now Button -->
+            <div class="slide-up">
+              <button
+                class="relative z-10 text-[10px] sm:text-[12px] md:text-[14px] lg:text-[14px] xl:text-[14px] 2xl:text-[16px] px-[8px] sm:px-[10px] md:px-[14px] lg:px-[18px] xl:px-5 2xl:px-6 py-[4px] sm:py-[8px] md:py-[7px] lg:py-[10px] xl:py-[12px] 2xl:py-[12px] font-medium sm:font-semibold text-[#15803D] bg-[#FACC15] rounded-full shadow-[0_2px_6px_rgba(0,0,0,0.2)] overflow-hidden cursor-pointer"
+              >
+                <span class="relative z-20"
+                  ><i class="fa-brands fa-pagelines"></i
+                  ><span class=""> Plant a Tree</span></span
+                >
+                <!-- Animated Gradient Border -->
+                <span
+                  class="absolute inset-0 rounded-full p-[2px] sm:p-[4px] lg:p-[4px] 2xl:p-[4px] bg-linear-[25deg,red_5%,yellow_60%,lime_90%,teal] [background-size:400%_400%] animate-[borderShift_3s_linear_infinite]"
+                  aria-hidden="true"
+                >
+                  <span
+                    class="block w-full h-full rounded-full bg-[#FACC15]"
+                  ></span>
+                </span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- Copyright -->
+      <section>
+        <div>
+          <h5>&COPY; 2025 Green Earth. All Rights Reserved.</h5>
+        </div>
+      </section>
+    </footer>
 
     <!-- -------------------------------------------------- -->
     <!-- Others Area -->
