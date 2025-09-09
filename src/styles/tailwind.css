@@ -20,6 +20,12 @@
 
 /* Utilities Layer */
 @layer utilities {
+  /* Category Button Focus Style */
+  .focus {
+    background-color: #15803D;
+    color: white;
+  }
+
   /* Entrance Effect */
   .slide-left {
     animation: slideInLeft 1s ease-out forwards;
