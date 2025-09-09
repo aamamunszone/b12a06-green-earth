@@ -1,4 +1,4 @@
-## Qurstion Answer
+## Question Answer
 1) What is the difference between var, let, and const?
 
 var → old-school, function-scoped, can be redeclared & hoisted (not safe for modern code).
@@ -50,6 +50,7 @@ Concatenation → "Hello " + name + "!" (messy).
 
 Template literals → `Hello, ${name}!` (clean, readable, supports multiline).
 
+---
 
 ## WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-006
 
