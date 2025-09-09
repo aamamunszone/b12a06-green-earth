@@ -1,3 +1,56 @@
+## Qurstion Answer
+1) What is the difference between var, let, and const?
+
+var → old-school, function-scoped, can be redeclared & hoisted (not safe for modern code).
+
+let → block-scoped, can be reassigned, but not redeclared in the same scope.
+
+const → block-scoped, cannot be reassigned (value stays fixed, but objects/arrays inside can still be mutated).
+
+2) What is the difference between map(), forEach(), and filter()?
+
+map() → transforms each item & returns a new array.
+
+forEach() → just loops through items, doesn’t return anything (mostly for side-effects).
+
+filter() → returns a new array containing only items that match a condition.
+
+
+3) What are arrow functions in ES6?
+
+A shorter way to write functions:
+
+const add = (a, b) => a + b;
+
+
+They don’t bind their own this, which makes them handy in callbacks and event handlers.
+
+4) How does destructuring assignment work in ES6?
+
+It lets you unpack values from arrays/objects into variables:
+
+const [x, y] = [10, 20];   // x=10, y=20
+const {name, age} = {name: "Mamun", age: 25};  
+
+
+Cleaner & more readable than accessing values one by one.
+
+
+5) Explain template literals in ES6. How are they different from string concatenation?
+
+Template literals use backticks ` and support string interpolation:
+
+const name = "Mamun";
+console.log(`Hello, ${name}!`);  
+
+
+Difference:
+
+Concatenation → "Hello " + name + "!" (messy).
+
+Template literals → `Hello, ${name}!` (clean, readable, supports multiline).
+
+
 ## WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-006
 
 ### 📅 Deadline For 60 marks: 9th September, 2025 (11:59 pm ⏱️)
